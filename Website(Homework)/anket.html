@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>WEBFLIX</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="site.css">
+		<link rel="icon" href= "foto/icon.png">
+		<script src="sitejs/site.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		
+		<script>
+		$(document).ready(function(){
+		$("#renkdegis").click(function() {
+		  $("fieldset").css('color', 'red');
+		  });
+		  $('#ab1').click(function() {
+          $('#Label').hide();
+          $('#newtextarea').hide();
+	
+		  
+		  
+		 
+		 
+          });
+		 });
+		</script>
+	</head>
+    <body id="surveybody" onload="getCookie();">	
+	<header>
+       <h1><a href="anasayfa.html"><img src="foto/webflix1.png" height="150" width= "1000" alt="WEBFLIX"></a></h1>
+	   </header>
+	   <nav id="başlıklar">
+			<ul>
+				<li><a href="anasayfa.html">Home</a></li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><a href="hakkımızda.html">About Us</a></li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><a href="anket.html">Survey</a></li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><a href="week.html">Movie Of The Week</a></li>
+			</ul>
+		</nav>
+	 <div id="content">
+	 <form id="form1" name="formname" method="get" onsubmit="return validateForm();">
+	 <button id="renkdegis" onclick="ggggg"> Change label colors to red</button> 
+	 <fieldset><legend>Visitor Information</legend>
+	 <label for="birthday" style="color:white" >Birthday</label><br>
+     <input type="date" id="birthday" name="birthday">  <br>
+     <label for="name" style="color:white">Name</label><br>
+     <input type="text" id="name" name="name" placeholder="Please enter name"/><br>
+     <label for="surname" style="color:white">Surname</label><br>
+     <input type="text" id="surname" name="surname" placeholder="Please enter Surname"/><br>
+     <label for="name" style="color:white">Email</label><br><br>
+     <input type="email" id="email" name="email" placeholder="ex: weblflix@.......com"/><br><br>
+	 <label>Gender:</label> <input type="radio" name="gender" id="gender1" value="F"> Female &nbsp;&nbsp;
+	 <input type="radio" name="gender" id="gender2" value="M"> Male <br><br>
+	 
+	 </fieldset>
+	 
+     <fieldset><legend> Visitor Survey</legend>
+     
+      <h4>Rate our website 1-5<br>(1:Very bad 5: Very Good)</h4>
+      <input type="radio" name="a"  />1<br/>
+      <input type="radio" name="a" />2<br/>
+      <input type="radio" name="a"  />3<br/>
+      <input type="radio" name="a"  />4<br/>
+      <input type="radio" name="a"  />5<br/>
+    
+  
+    
+	
+      <h4> What's your favorite film categories?</h4>
+       <input id="Action" type="checkbox" name="filmler" />Action<br/>
+       <input id="Horror" type="checkbox" name="filmler" />Horror<br/>
+       <input id="Scifi"  type="checkbox" name="filmler" />Science Fiction<br/>
+       <input type="checkbox" name="filmler" />Comedy<br/>
+       <input type="checkbox" name="filmler" />Animation<br/>
+	   <input type="checkbox" name="filmler" />Drama<br/>
+   
+
+  
+      <h4>Which one is the best film of 2020?</h4>
+      <select size="4" multiple>
+        <option value="A">Mulan</option>
+        <option value="B">Bad Boys For Life</option>
+        <option value="C">Birds of Prey</option>
+        <option value="D">The Platform</option>
+      </select>
+   
+   
+      <h4>Which one is the best film of IMDB Top 4?</h4>
+      <select>
+        <option>The Shawshank Redemption</option>
+        <option>Godfather</option>
+        <option>Godfather2</option>
+		<option>The Dark Knight</option>
+      </select><br><br>
+	  
+	  
+	 <label for="ab">Do you want to add a new movie to our website?</label>
+	  <input type="radio" name="1" id="ab" value="K"> Yes!  &nbsp;&nbsp;
+	  <input type="radio" name="1" id="ab1" value="O">No <br><br>
+	  <label id="Label">What is the movie name?</label><br><br>
+     <textarea id="newtextarea"></textarea><br>
+    
+	</fieldset>
+     <fieldset><legend> Suggestions</legend>
+   
+      <h4>Please write your Opinions </h4>
+      <textarea></textarea><br>
+	  <input type="submit" value="Submit"  />
+	  <button type="reset">Clear Form</button>
+	  
+	 </fieldset>
+    </form>
+
+	</div>
+    <footer>Developed by:<br>Toprak Arat<br>Tugberk Basaran<br>Sude Akyuz <br>
+    </footer>
+</body>
+</html>

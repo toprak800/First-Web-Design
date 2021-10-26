@@ -1,0 +1,182 @@
+        body {
+		background: black;
+		font-family:Arial,sans-serif;
+		}
+		#surveybody{
+		text-align:center;	
+			
+		}
+		header {
+		text-align: center;
+		}
+		h1 {
+		color: red;
+		
+		}
+		h2{
+		color: white;	
+		text-align: center;
+        text-decoration: underline overline;
+		font-size: 80px;
+			
+		}
+		h3 {
+		  background: linear-gradient(to right,#BF953F,#FCF6BA,#B38728,#FBF5B7,#AA771C); 
+		  color: black; 
+		  margin-left: 150px; 
+		  font-size: 50px; 
+		  text-align: center;
+		  }
+		h5{
+		color: white;	
+		font-size: 30px; 
+		}
+			
+		
+		p {
+		 color: white;
+		 font-size: 20px;	
+		}
+		#başlıklar {
+		 background-image: url(foto/net.jpg);
+		color: black;
+		font-weight: bold;
+		}
+		nav ul {
+		  list-style-type:none;
+		  display: table;
+		  padding: 20px;
+		  margin-left: auto;
+		  margin-right: auto;
+		 
+				
+		}
+		
+		nav li {
+		display: inline;
+		word-spacing: 10px;
+		font-size: 20px;
+		
+		
+		}
+		
+		nav a {
+		 text-decoration: none;
+		 color: white;
+		}
+		nav a:hover {
+		 text-decoration: underline;
+		}
+		
+	
+		#content {
+		
+		 background-image: url(foto/star.gif);
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 color: gray;
+		 min-height: 500px;
+		 
+		}
+		
+		#leftside {
+		 min-height: 1200px;
+		 width: 150px;
+		 float: left;
+		}
+		#lastimage1{
+			
+			right: 10px;
+			bottom: 10px;
+			position: absolute;
+		 }
+		 #lastimage2{
+			
+			right: 10px;
+			bottom: -585px;
+			position: absolute;
+		 }
+	     
+		#leftlinks {
+		 padding-left: 10px;
+		 margin-top: 30px;
+		 position: fixed;
+		 width: 120px;
+		
+		 
+		}
+		#leftlinks li {
+		 list-style-type:none;
+		 border: 1px solid red
+		}
+		#leftlinks li a {
+		 text-decoration: none;
+		 display:block;
+		 padding: 10px;
+		 border-bottom: 1px solid white;
+		 color: white;
+		 font-weight: bold;
+		 text-align: center;
+		 font-size: 18px;
+		}
+		
+		#action1 {
+	    background-image: url(foto/silah.gif);
+		background-size: cover;
+		background-repeat: no-repeat;	
+		}
+		#horror1{
+	    background-image: url(foto/korku1.gif);
+		background-size: cover;
+		background-repeat: no-repeat;		
+		}
+		#comedy1{
+	    background-image: url(foto/minyon.gif);
+		background-size: cover;
+		background-repeat: no-repeat;
+		}
+		#animation1 {
+		background-image: url(foto/animasyon.gif);
+		background-size: cover;
+		background-repeat: no-repeat;
+		}
+		#drama1 {
+		background-image: url(foto/drama1.gif);
+		background-size: cover;
+		background-repeat: no-repeat;
+		}
+		#science1 {
+		background-image: url(foto/bilim.gif);
+		background-size: cover;
+		background-repeat: no-repeat;
+		}
+		 form1 {
+		  margin: auto;	
+          width: 370px;	  
+			 
+		 }
+		 fieldset{
+			 font-size: 30px;
+			 
+		 }
+		 tr {
+	     font-weight:bold;
+         color: white;		 
+		 }
+		 table{
+		 font-weight: bold;
+		 color: white;
+		 font-size: 20px;	 
+			 
+		 }
+		 #newvideo{
+		 margin-left: 120px;	 
+		 }
+		footer {
+		 background: black;
+		 color: white;
+		 min-height: 80px;	
+         border: 2px solid black;
+        font-style: italic;	
+        float:left;		
+		}
